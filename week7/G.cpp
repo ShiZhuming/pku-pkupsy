@@ -35,7 +35,9 @@ int main()
 			a[k] = i;
 			flag = true;
 		}
-		if (flag)
+		
+	}
+    if (flag)
 		{
 			for (i = 1; i < k; i++)
 				printf("%d,",a[i]);
@@ -45,6 +47,5 @@ int main()
 		{
 			printf("No");
 		}
-	}
 	return 0;
 }
